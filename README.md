@@ -16,7 +16,7 @@ vector<int> inorderTraversal(TreeNode* node)
   return v_left+v_right  /* append right to left */
  ```
 **Problem**:
-1. When root=[], what will happen ?
-2. Either one of children node=[], what will happen ?
+1. When root=[], what will happen?
+2. Either one of children node=[], what will happen?
 3. How to append two vector efficiently?
 4. Can we append two vector while either one contain no element?
