@@ -1,6 +1,6 @@
 # Leetcodes-Binary-Tree-Inorder-Traversal
 ## *Description: Given the root of a binary tree, return the inorder traversal of its nodes' values.*
-**Thought: **
+**Thought**:
 It is intuitive to apply recusive approach.
 Since inorder traversal start from left, we first travel to leftnode, then itself, and last, the right node. So the code may look like
 ```c++
